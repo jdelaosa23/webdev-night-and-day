@@ -2,27 +2,27 @@
     background-color: black;
 }
 
-#orb{
+#orb {
     height: 300px;
     width: 300px;
     border-radius: 100%;
     padding: 20px;
     margin: auto;
     position: absolute;
-    top: 0; left:0; bottom: 0; right: 0;
-    background-color: #ffdd00;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
 
 #sky {
-    height: 100%;
-    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100vh;
 }
 
 .sun {
     background-color: #ffdd00;
     border: 10px solid #f1c40f;
 }
-
 .moon {
     background-color: #bdc3c7;
     border: 10px solid #eaeff2;
@@ -40,6 +40,10 @@
     border: 20px solid #f1c40f;
 }
 
+.moon:hover {
+    border: 20px solid #eaeff2;
+}
+
 #moonspot1 {
     height: 40px;
     width: 40px;
@@ -51,3 +55,20 @@
 .visible {
     background-color: #eaeff2;
 }
+
+#moonspot3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    float:right;
+    margin: 20px;
+}
+
+#moonspot2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    float:right;
+    margin: 20px;
+}
+
